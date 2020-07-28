@@ -1,6 +1,7 @@
-function foo() {}
-function bar() {}
+export function isBoolean(val: any): boolean {
+  return val instanceof Boolean || val === true || val === false
+}
 
 export default {
-  foo,
+  isBoolean,
 }
