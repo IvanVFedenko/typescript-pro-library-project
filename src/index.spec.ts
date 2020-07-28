@@ -1,6 +1,6 @@
-const lib = require('./index');
+import lib from './index'
 
 test('it should work', () => {
-  expect(true).toEqual(true);
-  console.log(lib);
-});
+  expect(true).toEqual(true)
+  console.log(lib)
+})
